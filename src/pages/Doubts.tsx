@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
-import { MessageSquare, Brain, Robot, Star } from "lucide-react";
+import { MessageSquare, Brain, Bot, Star } from "lucide-react";
 
 const commonDoubts = [
   "What if I don't get good grades in my CS degree?",
@@ -89,7 +89,7 @@ const Doubts = () => {
 
             <Card className="p-6 bg-gray-800/50 border-gray-700">
               <div className="flex items-center gap-3 mb-4">
-                <Robot className="w-6 h-6 text-green-400" />
+                <Bot className="w-6 h-6 text-green-400" />
                 <h2 className="text-xl font-semibold">Personalized Guidance</h2>
               </div>
               <p className="text-gray-400">
